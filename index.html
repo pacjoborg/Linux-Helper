@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>pacjoborg</title>
+ 
+<link rel="stylesheet" href="http://www.idangero.us/framework7/dist/css/framework7.min.css">
+ </head>
+<body>
+ 
+<div class="statusbar-overlay"></div>
+ 
+<div class="panel-overlay"></div>
+ 
+<div class="panel panel-left panel-reveal">
+<div class="content-block">
+<p>Version 1.0</p>
+<p> +Public Version </p>
+<p> +Added updating and upgrading </p>
+<p> +Linux Distro Section </p>
+<p> +Added Linux Version Checker </p> 
+<a href="https://twitter.com/pacjoborg" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @pacjoborg</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+</div>
+ 
+<div class="panel panel-right panel-cover">
+<div class="content-block">
+<p>Right panel content goes here</p>
+</div>
+</div>
+ 
+<div class="views">
+ 
+<div class="view view-main">
+ 
+<div class="navbar">
+<div class="navbar-inner">
+ 
+<div class="center sliding">pacjoborg: Linux distros and help</div>
+<div class="right">
+ <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+</div>
+</div>
+</div>
+ <div class="page">
+  <!-- Page content should have additional "pull-to-refresh-content" class -->
+  <div class="page-content pull-to-refresh-content" data-ptr-distance="55">
+    <!-- Default pull to refresh layer-->
+    <div class="pull-to-refresh-layer">
+      <div class="preloader"></div>
+      <div class="pull-to-refresh-arrow"></div>
+    </div>
+ 
+    <!-- usual content below -->
+    <div class="list-block">
+      ...
+    </div>
+  </div>
+</div>   
+<div class="pages navbar-through toolbar-through">
+ 
+<div data-page="index" class="page">
+ 
+<div class="page-content">
+<div class="content-block-title">Learn About Linux</div>
+<div class="content-block">
+<div class="content-block-inner">
+<p></p>
+<p>Learn about distros, tools, and how to use linux!</p>
+</div>
+</div>
+    <p><a href="#" class="button notification-LinuxVer">Current Linux Version</a></p>
+
+
+<div class="content-block-title">About Terminal</div>
+<div class="list-block">
+<ul>
+ <p><a href="#" data-popup=".popup-terminal" class="open-popup">
+<div class="item-content">
+<div class="item-inner">
+<div class="item-title">Updating And Upgrading</div>
+</div>
+</div></a></li> 
+</ul>
+</div>
+<div class="content-block-title">About Linux</div>
+<div class="list-block">
+<ul>
+ <p><a href="#" data-popup=".popup-distros" class="open-popup">
+<div class="item-content">
+<div class="item-inner">
+<div class="item-title">Distros</div>
+</div>
+</div></a></li>
+</div>
+</div></a></li>
+<div class="list-block">
+    <p><a href="#" class="button notification-LinuxVer">Current Linux Version</a></p>
+
+<!-- Pop Ups -->
+<div class="popup popup-distros">
+    <div class="content-block">
+<br><br>
+      <p>Linux Distros</p>
+<a href="javascript:history.go(0)">Click to close</A>
+      <p>Ubuntu</p>
+<P>
+Ubuntu is a great debian based distribution of Linux. Easy to install and easy to learn ubuntu is by canonical. And can be install straight onto your system via unetbootin. 
+</p>
+    </div>
+  </div>
+ <div class="popup popup-terminal">
+    <div class="content-block">
+<br><br> 
+<p></p>
+      <p>Linux Terminal Commands </p>
+<a href="javascript:history.go(0)">Click to close</A>
+      <p>updating and upgrading packages</p>
+<P>
+to update the linux repository's type "sudo apt-get update" on debian based distros.
+</p>
+<p> 
+To upgrade packages on linux "sudo apt-get upgrade" on debian based distros.
+    </div>
+  </div>
+</div>
+</div>
+</div>
+ 
+  </div>
+</div>
+</div>
+</div>
+ 
+<script type="text/javascript" src="http://www.idangero.us/framework7/dist/js/framework7.min.js"></script>
+ 
+<script type="text/javascript" src="my.js"></script>
+</body>
+</html>
